@@ -1,2 +1,1 @@
-# linked_landing_page
-Landing page for Linked
+# Linked landing page
