@@ -56,7 +56,7 @@ p{
 	font-size: 16px;
 }
 .wrapper{
-	padding: 75px 0px;
+	padding: 90px 0px;
 }
 
 .virticle-line{
@@ -272,7 +272,7 @@ a#logo:hover{
     background: white;
     border-radius: 50px;
     width: 180px;
-    text-align: left;
+    text-align: center;
     color: #333333;
     border: 1px solid white;
     margin-right: 10px;
@@ -741,7 +741,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #footer {
     /*background: linear-gradient(180deg, rgb(0, 190, 111), rgb(87, 160, 255));*/
-    background-color: #39c;
+    background-color: black;
     color:white;
     padding:40px 0;
 }
@@ -1272,14 +1272,17 @@ box-shadow:none !important;
     padding-bottom:40px;
 }
 .contact-submit {
-    width:160px;
-    background:#fff;
-    color:#41A1E1;
-    border:2px solid #41A1E1;
-    font-size:46px;
-    padding:0;
-    margin: -40px auto 0;
-    display: block;
+    margin: 0;
+    padding: 11px 33px;
+    background-color: #15cc9a;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-transform: capitalize;
 }
 
 .submit-btn-wraper{
@@ -1309,16 +1312,3 @@ input:-moz-placeholder,textarea:-moz-placeholder {
     color: #6ecba9;
 }
 
-.btn-download {
-    margin: 0;
-    padding: 11px 33px;
-    background-color: #15cc9a;
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    text-transform: capitalize;
-}
